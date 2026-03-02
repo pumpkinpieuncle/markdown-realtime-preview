@@ -31,14 +31,10 @@ jobs:
       - name: Build and Package Mac
         if: matrix.os == 'macos-latest'
         run: npm run electron:build:mac
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and Package Windows
         if: matrix.os == 'windows-latest'
         run: npm run electron:build:win
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload Release Artifacts
         uses: softprops/action-gh-release@v1
