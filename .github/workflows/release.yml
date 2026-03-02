@@ -9,6 +9,9 @@ jobs:
   release:
     runs-on: ${{ matrix.os }}
     
+    permissions:
+      contents: write
+
     strategy:
       matrix:
         os: [macos-latest, windows-latest]
@@ -20,7 +23,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
 
       - name: Install Dependencies
         run: npm install
