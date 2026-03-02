@@ -16,6 +16,7 @@
   "build": {
     "appId": "com.markdown-realtime-preview.app",
     "productName": "Markdown实时预览",
+    "publish": null,
     "directories": {
       "output": "release"
     },
