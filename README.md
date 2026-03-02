@@ -10,8 +10,14 @@
 - **一键导出 PDF**：所见即所得的高质量 PDF 导出，无论亮色还是暗色主题导出的表现始终如一。
 - **内容保护**：数据保存在本地浏览器中，绝不上传云端，确保隐私安全。
 - **一键复制**：快速复制渲染后的富文本内容或源代码。
+- **桌面应用**：支持 Windows (Win 7+) 和 macOS 安装，提供更深度的本地使用体验。
 
-## 🚀 快速开始 (Quick Start)
+## 📥 桌面版下载 (Desktop Downloads)
+
+您可以从 [GitHub Releases](https://github.com/pumpkinpieuncle/markdown-realtime-preview/releases) 页面下载最新版本的安装包。
+
+- **Windows**: 支持 Win 7, 8, 10, 11 (提供 32 位和 64 位版本)。
+- **macOS**: 支持 Apple Silicon (M1/M2/M3) 和 Intel 芯片。
 
 ### 环境要求
 - [Node.js](https://nodejs.org/) >= 14.x
